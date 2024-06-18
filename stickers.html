@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickers</title>
+
+    <link rel="stylesheet" href="./css/stickers.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="parrafo">
+            <p>Puedes llevar hasta 10 stickers en total</p>
+        </div>
+        <div class="contenedor-img">
+            <div id="imagen">
+                <img src="./img/perro.png" alt="perro">
+                <input type="number" id="input1">
+            </div>
+            <div id="imagen">
+                <img src="./img/pizza.jpg" alt="pizza">
+                <input type="number" id="input2">
+            </div>
+            <div id="imagen">
+                <img src="./img/gato.png" alt="gato">
+                <input type="number" id="input3">
+            </div>
+        </div>
+        <div class="verificador">
+            <p id="mensaje"></p>
+            <button onclick="verificar()">Verificar</button>
+        </div>
+    </div>
+    
+    <script src="./js/stickers.js"></script>
+</body>
+</html>

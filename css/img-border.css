@@ -1,0 +1,15 @@
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.borde {
+    border: 2px solid red;
+}

@@ -1,0 +1,32 @@
+img {
+    height: 300px;
+    width: 250px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.verificador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
